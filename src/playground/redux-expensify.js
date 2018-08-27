@@ -61,7 +61,6 @@ const setEndDate = (endDate) => ({
 });
 
 // Expenses Reducer
-
 const expensesReducerDefaultState = [];
 
 const expensesReducer = (state = expensesReducerDefaultState, action) => {
@@ -146,8 +145,8 @@ const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {
     }
   });
 };
-// Store creation
 
+// Store creation
 const store = createStore(
   combineReducers({
     expenses: expensesReducer,
