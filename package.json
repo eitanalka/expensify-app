@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -19,14 +20,18 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "jest": "^23.5.0",
     "live-server": "^1.2.0",
+    "moment": "^2.22.2",
     "node-sass": "^4.9.3",
     "normalize.css": "^7.0.0",
     "react": "^16.0.0",
+    "react-dates": "^17.2.0",
     "react-dom": "^16.0.0",
     "react-modal": "^2.2.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
+    "react-with-styles": "^3.2.1",
     "redux": "^3.7.2",
     "sass-loader": "^7.1.0",
     "strip-ansi": "^4.0.0",
